@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    border: 0px;
+    background-color: black;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.459);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+}
+.nav-item{
+    margin-top: 0rem;
+}
+.container-lg{
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
+}
+.container-lg h1{
+    padding-top: 5rem;
+    font-size: 3rem;
+    font-family: 'Dela Gothic One';
+}
+.container-lg h2{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: "Kanit", sans-serif;
+}
+.container-lg h5{
+    font-family:'Courier New', Courier, monospace;
+}
+.btn{
+    width: 30%;
+    background-color: rgba(120, 3, 3, 0.655);
+    border: none;
+    transition: 0.6s width;
+}
+.btn:hover{
+    width: 40%;
+    background-color: rgba(120, 3, 3, 0.456);
+}
+.row{
+    display: flex; 
+    flex-direction: row; /
+}
+.col{
+    font-size: 2rem;
+    border: 2px solid white;
+    border-radius: 1rem;
+}
+.col i{
+     margin-right: 0.5rem;
+}
+.column-heading{
+    font-size: 1.5vw;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.col-content{
+    font-size: 1rem;
+}
+.col a{
+    font-size: 1rem;
+    color: white;
+}
+.col h5{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.event-body{
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col-6{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.p-3 a{
+    color: white;
+    text-decoration: none;
+}
+#submit{
+    width: 100%;
+}
+ul{
+    text-align: left;
+}
+ul li{
+    margin-top: 1rem;
+    font-size: 1rem;
+    list-style: none;
+}
+
+@media (max-width: 1024px) {
+    .row {
+        display: grid;
+        flex-direction: column; 
+    }
+    .col{
+        margin-top: 3rem;
+    }
+    .column-heading{
+        font-size: 3vw;
+    }    
+}
