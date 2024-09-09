@@ -111,6 +111,9 @@ ul li{
 .img-thumbnail{
     width:25%;
 }
+#leaderboard-row{
+    background-color: rgba(27, 1, 1, 0.466);
+}
 
 @media (max-width: 1024px) {
     .row {
