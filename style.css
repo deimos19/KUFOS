@@ -42,7 +42,7 @@ body{
 }
 .row{
     display: flex; 
-    flex-direction: row; /
+    flex-direction: row;
 }
 .col{
     font-size: 2rem;
@@ -91,6 +91,26 @@ ul li{
     font-size: 1rem;
     list-style: none;
 }
+.card-container{
+    display: flex;
+    padding-top: 3rem;
+}
+.card{
+    margin-left: 2rem;
+    height: auto;
+    padding-bottom: 1rem;
+    width: 33.33%;
+}
+.card img{
+    height: 70%;
+}
+.card-body{
+    padding-bottom: 0rem;
+    height: 40%;
+}
+.img-thumbnail{
+    width:25%;
+}
 
 @media (max-width: 1024px) {
     .row {
@@ -102,5 +122,19 @@ ul li{
     }
     .column-heading{
         font-size: 3vw;
-    }    
+    }
+    .btn{
+        width: 50%;
+    }
+    .btn:hover{
+        width: 60%;
+    }  
+    .card-container{
+        display: block;
+        padding-right: 3.5rem;
+    }
+    .card{
+        margin-top: 1rem;
+        width: 100%;
+    }  
 }
