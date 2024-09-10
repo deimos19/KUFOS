@@ -52,13 +52,35 @@
                   <li><a class="dropdown-item" href="#">More..</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-disabled="true">What's new</a>
-              </li>
+              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" style=" font-size:1rem; width:auto;">
+                What's new<i class="fa-regular fa-bell" style="margin-left: 0.3rem; font-size:1rem;"></i>
+              </button>
             </ul>
           </div>
         </div>
       </nav>
+
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel bg-dark text-white">
+        <div class="offcanvas-header bg-dark text-white">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Notification</h5>
+          <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body bg-dark text-white">
+          <img src="images/event.png" class="card-img-top" alt="..." style="background-color: rgb(179, 179, 179);">
+          <div>
+            Today's events and the latest leaderboard have been published. Stay updated with all the action and see who's leading the competition!
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" style="width: auto;">
+              Check it out
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="events.html">Events</a></li>
+              <li><a class="dropdown-item" href="leaderboard.html">Leaderboard</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
     <main>
         <div class="container-md text-white" style="text-align:center; justify-content:center; margin-top:5rem;">
