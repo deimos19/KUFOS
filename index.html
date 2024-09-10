@@ -9,11 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/x-icon" href="images/program-logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="style.css">
     <title>KUHOS Live!</title>
 </head>
 <body >
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top animate__animated animate__fadeInDown animate__delay-2s">
         <div class="container-fluid">
           <a class="navbar-brand text-white" href="index.html">KUFOS-Arts</a>
           <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,13 +59,12 @@
       </nav>
 
     <main>
-      <div class="container-lg bg-transparent text-white"      style="text-align: center;">
-            <h1>Kerala University of Fisheries and Ocean Studies</h1>
-            <h2>Welcome to KUFOS Arts live!</h2>
-            <h5>Stay updated with the latest scores and events at Kerala University of Fisheries and Ocean Studies. Catch all the live action, from sports competitions to academic events, and never miss a moment of what's happening on campus. Dive into the world of KUFOS with real-time updates, scores, and highlights, bringing you closer to the vibrant campus life.</h3>
-            <h3 style="margin-top: 3.5rem;">Stay Informed. Stay Engaged. Stay KUFOS.</h3>
-            <!-- <button type="button" class="btn btn-primary btn-lg" style="margin-top: 2.2rem;">What's new</button> -->
-            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" style="margin-top: 2.2rem; font-size:1.2rem;">
+      <div class="container-lg bg-transparent text-white" style="text-align: center;">
+            <h1 class="animate__animated animate__jackInTheBox animate__delay-0.5s">Kerala University of Fisheries and Ocean Studies</h1>
+            <h2 class="animate__animated animate__jackInTheBox animate__delay-0.5s">Welcome to KUFOS Arts live!</h2>
+            <h5 class="animate__animated animate__jackInTheBox animate__delay-0.5s">Stay updated with the latest scores and events at Kerala University of Fisheries and Ocean Studies. Catch all the live action, from sports competitions to academic events, and never miss a moment of what's happening on campus. Dive into the world of KUFOS with real-time updates, scores, and highlights, bringing you closer to the vibrant campus life.</h3>
+            <h3 class="animate__animated animate__fadeInDown animate__delay-1.5s" style="margin-top: 3.5rem;">Stay Informed. Stay Engaged. Stay KUFOS.</h3>
+            <button class="btn btn-primary animate__animated animate__jackInTheBox animate__delay-0.5s" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" style="margin-top: 2.2rem; font-size:1.2rem;">
               What's new
             </button>
 
@@ -97,7 +98,7 @@
       </div>
 
             <div class="container text-center text-white" style="padding-top: 5rem;">
-            <div class="row">
+            <div class="row animate__animated animate__zoomIn animate__delay-0.5s">
                 <div class="col" style="margin-right: 1rem;box-shadow: 0 0 50px rgba(157, 6, 6, 0.5);">
                 <i class="fa-solid fa-hourglass-start" style="color: rgb(168, 3, 3);"></i>Upcoming Event
                 <h5 class="column-heading">Stay Ahead with Upcoming Events</h5>
@@ -177,8 +178,10 @@
 
 
 
-
-
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
