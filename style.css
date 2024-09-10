@@ -46,8 +46,9 @@ body{
 }
 .col{
     font-size: 2rem;
-    border: 2px solid white;
+    border: 2px solid rgba(157, 6, 6, 0.5);
     border-radius: 1rem;
+    background-color: black;
 }
 .col i{
      margin-right: 0.5rem;
