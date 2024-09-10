@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="icon" type="image/x-icon" href="images/program-logo.jpg">
     <link rel="stylesheet" href="style.css">
     <title>KUHOS Live!</title>
@@ -61,17 +62,17 @@
 
     <main>
         <div class="container-md" style="justify-content:center;">
-            <div class="text" style="margin-top: 5rem; color:white; text-align:center;">
+            <div class="text wow animate__animated animate__zoomIn animate__delay-0.5s animate__slow" style="margin-top: 5rem; color:white; text-align:center;">
             <h1>Discover Exciting Events at KUFOS!</h1>
             <p>Stay updated with the latest happenings and upcoming events at Kerala University of Fisheries and Ocean Studies. From engaging workshops and conferences to innovative research presentations and cultural festivals, we have something for everyone. Explore our dynamic event calendar to never miss out on key moments and connect with the vibrant KUFOS community.</p>
             </div>
         </div>
         <div class="container-md" style="text-align: center; align-items:center;">
-            <div class="form" style="text-align: center; color:white; margin-top: 3rem;">
+            <div class="form wow animate__animated animate__zoomIn animate__delay-0.5s animate__slow" style="text-align: center; color:white; margin-top: 3rem;">
                 Select a Day to View the Schedule and Explore Events Happening on Each Stage
             </div>
 
-            <form class="row row-cols-lg-auto g-3 align-items-center" style="margin-top: 2rem; justify-content:center;">
+            <form class="row row-cols-lg-auto g-3 align-items-center wow animate__animated animate__zoomIn animate__delay-0.5s animate__slow" style="margin-top: 2rem; justify-content:center;">
                 
               
 
@@ -391,7 +392,7 @@
             <h1 style="color: white; text-align:center">Ongoing Events</h1>
             <div class="container">
                 <div class="card-container">
-                    <div class="card bg-transparent" style="border: 1px solid white;">
+                    <div class="card bg-transparent wow animate__animated animate__zoomIn animate__delay-0.5s animate__slow" style="border: 1px solid white;">
                         <img src="images/poster-template2.jpg" class="card-img-top" alt="...">
                         <div class="card-body text-white" >
                             <h5 class="card-title">Special title treatment</h5>
@@ -400,7 +401,7 @@
                             <a href="#" style="color: white; margin-left:1rem">Contact Us</a>
                         </div>
                     </div>    
-                    <div class="card bg-transparent" style="border: 1px solid white;">
+                    <div class="card bg-transparent wow animate__animated animate__zoomIn animate__delay-0.5s animate__slow" style="border: 1px solid white;">
                         <img src="images/event-template.png" class="card-img-top" alt="...">
                         <div class="card-body text-white" >
                             <h5 class="card-title">Special title treatment</h5>
@@ -409,7 +410,7 @@
                             <a href="#" style="color: white; margin-left:1rem">Contact Us</a>
                         </div>
                     </div>
-                    <div class="card bg-transparent" style="border: 1px solid white;">
+                    <div class="card bg-transparent wow animate__animated animate__zoomIn animate__delay-0.5s animate__slow" style="border: 1px solid white;">
                         <img src="images/poster-template.jpg" class="card-img-top" alt="...">
                         <div class="card-body text-white" >
                             <h5 class="card-title">Special title treatment</h5>
@@ -457,7 +458,10 @@
         });
     </script>
 
-
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
