@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" type="image/x-icon" href="images/program-logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <title>KALA KAALAM KALAAPAM</title>
+
+    <style>
+        .winner-banner {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .trophy-icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+            color: #ffd700;
+        }
+
+        .winner-card {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+<body class="event-body">
+    <main>
+           <header class="winner-banner">
+        <div class="container">
+            <h1 class="display-4 animate__animated animate__rubberBand">Congratulations!</h1>
+            <p class="lead animate__animated animate__rubberBand">Announcing the Winner of the University Arts Festival at KUFOS</p>
+        </div>
+    </header>
+    <section class="py-5">
+        <div class="container-md">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="winner-card animate__animated animate__rubberBand">
+                        <i class="fas fa-trophy trophy-icon"></i>
+                        <h2 class="fw-bold">Winner: <span id="winner-name">Name</span></h2>
+                        <p class="mt-3">We are proud to announce that <span id="winner-name">Name</span> has won the first place in the KUFOS Arts Festival 2024. Your talent, dedication, and hard work have truly shined!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="backHome" style="text-align: center; margin-top:1rem;">
+           <a href="index.html" style="color: white;">Back to Home</a>
+    </div>
+    </main>
+
+    
+    <script src="js/confetti.js"></script>
+    <script>
+        const start = () => {
+            setTimeout(function(){
+                confetti.start();
+            })
+        };
+        const stop = () =>{
+            setTimeout(function(){
+                confetti.stop();
+            },8000)
+        }
+        start();
+        stop();
+    </script>
+
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
