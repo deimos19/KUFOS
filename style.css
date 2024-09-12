@@ -158,11 +158,12 @@ ul li{
         width: 100%;
     }
     .image-box{
+        width: 90%;
         display: grid;
         padding-left: 0px;
     }
     .image-box img{
-        width: 100%;
+        width: 70%;
         margin-top: 2rem;
     }
     /* .h1{
